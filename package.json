@@ -1,0 +1,27 @@
+{
+  "name": "webpack_xblock",
+  "version": "1.0.0",
+  "description": "README for webpack_xblock",
+  "main": "index.js",
+  "dependencies": {
+    "@edx/frontend-build": "^5.0.5",
+    "axios": "^0.19.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "build": "fedx-scripts webpack -p",
+    "lint-fedex": "fedx-scripts eslint webpack_xblock/static/js/src/**/* --ext .js,.jsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-expand": "^5.1.0",
+    "dotenvi": "^0.9.0"
+  }
+}

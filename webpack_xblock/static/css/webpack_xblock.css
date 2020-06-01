@@ -1,0 +1,9 @@
+/* CSS for webpack_xblock */
+
+.webpack_xblock_block .count {
+    font-weight: bold;
+}
+
+.webpack_xblock_block p {
+    cursor: pointer;
+}
